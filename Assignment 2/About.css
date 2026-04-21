@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8dede;
+}
+
+.about-box {
+    width: 350px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.about-box p {
+    font-size: 14px;
+    color: #877676;
+    line-height: 1.6;
+}

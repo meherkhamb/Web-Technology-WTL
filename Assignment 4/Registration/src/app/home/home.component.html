@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="logo">MyApp</div>
+    <ul class="nav-links">
+        <li><a routerLink="/home" class="active">Home</a></li>
+        <li><a routerLink="/profile">Profile</a></li>
+        <li><a routerLink="/settings">Settings</a></li>
+    </ul>
+    <button class="logout-btn" (click)="logout()">Logout</button>
+</nav>
+
+<div class="home-container">
+    <div class="welcome-card">
+        <h1>Welcome back, <span class="highlight">{{ userName }}</span>!</h1>
+        <p>You have successfully authenticated and logged into the dashboard.</p>
+        <p>This is your new Home component.</p>
+    </div>
+</div>

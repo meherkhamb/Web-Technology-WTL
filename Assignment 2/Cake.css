@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(to right, #fff1eb, #ace0f9);
+    padding: 30px;
+}
+
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c2c54;
+}
+
+
+/* Menu Grid */
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+
+/* Cake Card */
+
+.cake {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.cake:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Cake Image */
+
+.cake img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* Cake Name */
+
+.cake h3 {
+    font-size: 22px;
+    color: #6d214f;
+    margin: 15px 0 5px;
+}
+
+
+/* Price */
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #218c74;
+    margin: 5px 0;
+}
+
+
+/* Description */
+
+.desc {
+    font-size: 14px;
+    color: #555;
+    padding: 0 15px 15px;
+}
+
+
+/* Button */
+
+button {
+    background: linear-gradient(to right, #ff6a88, #ff99ac);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff4757, #ff6b81);
+    transform: scale(1.05);
+}

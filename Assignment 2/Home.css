@@ -1,0 +1,136 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #faf7f2;
+    /* soft cream */
+    color: #3e2723;
+    /* cocoa brown */
+}
+
+
+/* Header */
+
+header {
+    background-color: #f3e5d8;
+    /* warm cream */
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 1px solid #e0cfc2;
+}
+
+header h1 {
+    font-size: 38px;
+    color: #5d4037;
+    /* chocolate */
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 15px;
+    color: #7a5c50;
+    margin-top: 6px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #5d4037;
+    /* chocolate brown */
+    text-align: center;
+    padding: 14px 0;
+}
+
+nav a {
+    color: #fdf6f0;
+    text-decoration: none;
+    margin: 0 22px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e6c9a8;
+    /* caramel */
+}
+
+
+/* Cake Section */
+
+.cakes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    padding: 50px 60px;
+}
+
+
+/* Cake Card */
+
+.cake-card {
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 22px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cake-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Cake Image */
+
+.cake-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+
+/* Cake Name */
+
+.cake-card h3 {
+    font-size: 21px;
+    margin: 16px 0 6px;
+    color: #5d4037;
+}
+
+
+/* Price */
+
+.cake-card p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #a47148;
+    /* caramel brown */
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #3b1f21;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
